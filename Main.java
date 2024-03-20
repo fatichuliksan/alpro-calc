@@ -26,10 +26,10 @@ public class Main {
                 result = calculator.subtract(a, b);
                 break;
             case 3:
-                result = calculator.multiplication(a, b);
+                result = Calculator.multiplication(a, b);
                 break;
             case 4:
-                result = calculator.division(a, b);
+                result = Calculator.division(a, b);
                 break;
             default:
                 System.out.println("Pilihan tidak valid.");
